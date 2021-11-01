@@ -36,4 +36,5 @@ spec:
       nodePort: 30080
       name: http
   selector:
-    app: nginx
+    matchLabels:
+      app: nginx
